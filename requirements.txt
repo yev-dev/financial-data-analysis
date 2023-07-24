@@ -1,0 +1,20 @@
+pandas
+
+# Data providers
+yfinance
+pandas_datareader
+
+
+bs4
+jupyterlab
+
+# Visualization
+matplotlib
+
+# Statistics and math
+statsmodels
+
+# ML packages
+scipy
+sklearn
+keras
