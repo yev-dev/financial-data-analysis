@@ -15,16 +15,17 @@ class BootstrapYieldCurve(object):
         
     def add_instrument(self, par, ttm, coup, price, compounding_freq=2):
         """
+        Appends a tuple of bond information to the instruments dictionary, indexed by the maturity time.
         par: Bond face value in USD
         ttm: time to maturity in years
         coup: annula coupon in USD
         price: Bond cash prices in USD
         """
-        self.instruments[T] = (par, coup, price, compounding_freq)
+        self.instruments[ttm] = (par, coup, price, compounding_freq)
     
     def get_maturities(self):
         """ 
-        :return: a list of maturities of added instruments 
+        :return: a list of maturities of added instruments in descending order
         """
         return sorted(self.instruments.keys())
     

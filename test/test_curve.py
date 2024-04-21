@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from fda.curve import BootstrapYieldCurve
+from fda.fic.curve import BootstrapYieldCurve
 
 class TestBootstrapYieldCurve(TestCase):
 
@@ -14,3 +14,11 @@ class TestBootstrapYieldCurve(TestCase):
 
         y = yield_curve.get_zero_rates()
         x = yield_curve.get_maturities()
+
+
+if __name__ == '__main__':
+
+    tests = TestBootstrapYieldCurve()
+
+    tests.test_yield_curve()
+

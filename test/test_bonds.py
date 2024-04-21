@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from fda.bonds import bond_price, bond_ytm, bond_convexity, bond_mod_duration
+from fda.fic.bond import bond_price, bond_ytm, bond_convexity, bond_mod_duration
 
 class TestBonds(TestCase):
 

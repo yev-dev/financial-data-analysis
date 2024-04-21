@@ -6,4 +6,4 @@ WEEKLY = 52
 DAILY = 365
 
 
-DEFAULT_DATE_TIME = '%Y-%m-%d’
+DEFAULT_DATE_TIME = "%Y-%m-%d"

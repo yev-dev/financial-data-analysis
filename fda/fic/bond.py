@@ -7,7 +7,7 @@ import fda.constants as constants
 
 class Bond(object):
 
-    def init(self, coupon_rate: float, issuedate: str, maturity_date : str, facevalue: float = 100.0, coupon_frequency: int = constants.SEMI_ANNUALY):
+    def init(self, coupon_rate: float, issue_date: str, maturity_date : str, face_value: float = 100.0, coupon_frequency: int = constants.SEMI_ANNUALY):
 
         self.face_value = face_value
         self.coupon_rate = coupon_rate
